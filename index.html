@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>form</title>
+  </head>
+  <body>
+    <form class="form">
+      <h2 class="form__title">Связаться с нами</h2>
+      <div class="coneiner-input">
+        <label for="email">Email </label>
+        <input
+          type="email"
+          class="form__input"
+          id="email"
+          placeholder="должен заканчиваться на ru"
+          title="olgi83@yandex.ru"
+        required/>
+        <span class="input-error"></span>
+      </div>
+      <div class="coneiner-input"></div>
+        <label for="tel">Telephone</label>
+        <input
+          type="tel"
+          class="form__input"
+          id="tel"
+          placeholder="должен начинаться +7 или 8"
+          title="olgi83@yandex.ru"
+        />
+        <span class="input-error"></span>
+      </div>
+      <div class="coneiner-input"></div>
+        <label for="file">File</label>
+        <input
+          type="file"
+          class="form__input"
+          id="file"
+          placeholder="должен начинаться +7 или 8"
+          title="olgi83@yandex.ru"
+        />
+        <span class="input-error"></span>
+      </div>
+      <button class="form-btn">Отправить</button>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>

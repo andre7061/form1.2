@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  bottom: 0;
+}
+
+.form {
+  max-width: 600px;
+  padding: 10px;
+  background-color: grey;
+  margin: 100px auto;
+  border-radius: 10px;
+  color: azure;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.form__title {
+  text-align: center;
+  font-size: 32px;
+}
+input,
+label {
+  display: block;
+  margin: 10px;
+  font-size: 22px;
+}
+input::placeholder {
+  font-size: 14px;
+  color: rgb(81, 74, 74);
+  opacity: 0.5;
+}
+.input-error {
+  color: red;
+  margin: 3px;
+  display: none;
+}
+.input_error_activ {
+  display: inline;
+}
+.form-btn {
+  display: block;
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+  background-color: blue;
+  margin: 20px auto 0;
+  cursor: pointer;
+}
+.form-btn_disable {
+  cursor: none;
+  opacity: 0.5;
+}
